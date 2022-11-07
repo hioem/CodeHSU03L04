@@ -5,6 +5,8 @@ public class BillTester
         double cost = 125.45;
 
         // Create a bill for a birthday dinner for 10 people
+        Bill birthdayDinner = new Bill(cost, 10);
+
 
         System.out.println("Birthday Dinner");
         System.out.println();
